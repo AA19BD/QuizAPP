@@ -42,7 +42,8 @@ class Settings(BaseSettings):
     # PROJECT NAME, VERSION AND DESCRIPTION
     PROJECT_NAME: str = "QUIZ-APP"
     VERSION: str = "0.1.0-alpha"
-    DESCRIPTION: str = "Zimran TestProject"
+    DESCRIPTION: str = "Zimran Test-Project"
+    APP_VERSION: str = "v1"
 
     # POSTGRESQL DEFAULT DATABASE
     DEFAULT_DATABASE_HOSTNAME: str
