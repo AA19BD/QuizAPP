@@ -40,7 +40,9 @@ class Log:
             logging.basicConfig(level=default_level)
 
     def setup_filename_path(self, filename: str, folder: str) -> str:
-        datetime.datetime.now()
+        now = datetime.datetime.now()
+        date_str = now.strftime("%Y-%m-%d")
+        folder = os.path.join(folder, date_str)
         if not os.path.exists(folder):
             os.makedirs(folder)
         return f"{folder}/{filename}"
