@@ -12,10 +12,13 @@ from sqlalchemy import select
 from app.core import config, security
 from app.core.session import async_session
 from app.models import User
+from log import Log
+
+log = Log()
 
 
 async def main() -> None:
-    print("Start initial data")
+    log.info("Start initial data")
     async with async_session() as session:
         result = await session.execute(
             select(User).where(User.email == config.settings.FIRST_SUPERUSER_EMAIL)
@@ -31,11 +34,11 @@ async def main() -> None:
             )
             session.add(new_superuser)
             await session.commit()
-            print("Superuser was created")
+            log.info("Superuser was created")
         else:
-            print("Superuser already exists in database")
+            log.info("Superuser already exists in database")
 
-        print("Initial data created")
+        log.info("Initial data created")
 
 
 if __name__ == "__main__":
