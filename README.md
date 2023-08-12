@@ -1,4 +1,7 @@
-# Guide to run API
+# Zimran-Back-end-test-task
+[![N|Solid](https://media.licdn.com/dms/image/C4E0BAQHWkNzvAXiOSQ/company-logo_200_200/0/1657281958645?e=1700092800&v=beta&t=IrQto10vW-oRQKT-5Eu_KZKL5glVpo8CMMj0hVJ0PcI)](https://nodesource.com/products/nsolid)
+## Guide to run API
+<a name="readme-top"></a>
 ## Quickstart
 
 ### Clone project
@@ -26,6 +29,31 @@ pip install --upgrade pip
 
 ```shell
 pip install -r requirements-dev.txt
+```
+
+Change .env.example file to .env
+ ```
+SECRET_KEY=PPFGruWMnOBhFGQYftmNdgCmKRiaQOGwrmzdrupXdlHnUhZLah
+ENVIRONMENT=DEV
+ACCESS_TOKEN_EXPIRE_MINUTES=11520
+REFRESH_TOKEN_EXPIRE_MINUTES=40320
+BACKEND_CORS_ORIGINS=["http://localhost:3000","http://localhost:8001"]
+ALLOWED_HOSTS=["localhost", "127.0.0.1"]
+
+DEFAULT_DATABASE_HOSTNAME=localhost
+DEFAULT_DATABASE_USER=postgres
+DEFAULT_DATABASE_PASSWORD=pszkZVShCfPljpWpXFKiyuOnWgwYPPzFWdVIuErpZsgRrPXSRw
+DEFAULT_DATABASE_PORT=4411
+DEFAULT_DATABASE_DB=postgres
+
+TEST_DATABASE_HOSTNAME=localhost
+TEST_DATABASE_USER=postgres
+TEST_DATABASE_PASSWORD=VvbkGDbEfdaoVjUBEJwKKxynjIRsZPssVomdYZxLBxxgkZBeZZ
+TEST_DATABASE_PORT=30206
+TEST_DATABASE_DB=postgres
+
+FIRST_SUPERUSER_EMAIL=example@example.com
+FIRST_SUPERUSER_PASSWORD=dsjElevlmwpjQwpVoFNC
 ```
 
 ## Run docker for Postgres DB
