@@ -9,9 +9,9 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.api import deps
 from app.core import config, security
-from app.models.models import User
-from app.schemas.user_requests import RefreshTokenRequest
-from app.schemas.user_responses import AccessTokenResponse
+from app.models import User
+from app.schemas.requests import RefreshTokenRequest
+from app.schemas.responses import AccessTokenResponse
 
 router = APIRouter()
 

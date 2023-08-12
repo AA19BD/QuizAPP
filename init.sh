@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo "Make migrations"
-
-alembic revision --autogenerate -m "init"
-
 echo "Run migrations"
 alembic upgrade head
 

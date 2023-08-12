@@ -1,7 +1,7 @@
 [tool.poetry]
 authors = ["admin <admin@example.com>"]
-description = "QUIZ-APP"
-name = "QUIZ-APP"
+description = "AutoExpress - convenient app for car rentals."
+name = "autoexpress"
 version = "0.1.0-alpha"
 
 [tool.poetry.dependencies]

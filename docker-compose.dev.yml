@@ -1,5 +1,10 @@
 version: "3.7"
 
+# Database + Webserver (under http, for testing setup on localhost:80)
+#
+# docker-compose -f docker-compose.dev.yml up -d
+#
+
 services:
   postgres:
     container_name: db_app

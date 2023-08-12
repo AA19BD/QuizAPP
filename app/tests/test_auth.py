@@ -1,7 +1,7 @@
 from httpx import AsyncClient
 
 from app.main import app
-from app.models.models import User
+from app.models import User
 from app.tests.conftest import default_user_email, default_user_password
 
 

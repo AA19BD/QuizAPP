@@ -3,7 +3,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.main import app
-from app.models.models import User
+from app.models import User
 from app.tests.conftest import (
     default_user_email,
     default_user_id,
