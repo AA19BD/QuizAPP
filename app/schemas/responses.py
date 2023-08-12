@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr
+from pydantic import UUID4, BaseModel, EmailStr
 
 
 class BaseResponse(BaseModel):
@@ -18,5 +18,5 @@ class AccessTokenResponse(BaseResponse):
 
 
 class UserResponse(BaseResponse):
-    id: str
+    id: UUID4
     email: EmailStr
