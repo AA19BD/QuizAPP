@@ -137,7 +137,7 @@ async def service_next_question(
     game_question = await session.execute(game_question_stmt)
     game_question_result = game_question.unique().scalars().first()
 
-    if not game_question:
+    if not game_question_result:
         new_game_question = GameQuestion(
             answered=False,
             skipped=False,
