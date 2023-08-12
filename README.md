@@ -101,7 +101,7 @@ You can see our API Documentation in Redoc or Swagger style
 ## Screenshots/Instructions
 
 * After all the steps, you will see swagger documentation, to test all endpoints follow the steps below
-    * REGISTER SUPERUSER OR USE init.sh to create superuser(AUTHORIZE)
+  * REGISTER SUPERUSER OR USE init.sh to create superuser(AUTHORIZE)
 
 <div>
   <img style="width: 100%" src="screenshots/authorization.png" />
@@ -114,5 +114,80 @@ You can see our API Documentation in Redoc or Swagger style
 
 #####
 
-    * REGISTER SUPERUSER OR USE init
+    -- Create a new question
+
+<div>
+  <img style="width: 100%" src="screenshots/create_question.png" />
+</div>
+
+#####
+    -- Create quiz
+
+<div>
+  <img style="width: 100%" src="screenshots/create_quiz.png" />
+</div>
+<div>
+  <img style="width: 100%" src="screenshots/create_quiz3.png" />
+</div>
+
+
+#####
+    -- Publish quiz
+
+<div>
+  <img style="width: 100%" src="screenshots/publish_quiz.png" />
+</div>
+
+#####
+    -- Start Game
+<div>
+  <img style="width: 100%" src="screenshots/start_game.png" />
+</div>
+
+<div>
+  <img style="width: 100%" src="screenshots/start_game2.png" />
+</div>
+
+
+#####
+    -- Next Question
+<div>
+  <img style="width: 100%" src="screenshots/next_question.png" />
+</div>
+
+<div>
+  <img style="width: 100%" src="screenshots/next_question2.png" />
+</div>
+
+
+#####
+    -- Submit Answer to Question
+<div>
+  <img style="width: 100%" src="screenshots/submit.png" />
+</div>
+
+<div>
+  <img style="width: 100%" src="screenshots/submit2.png" />
+</div>
+
+<div>
+  <img style="width: 100%" src="screenshots/submit3.png" />
+</div>
+
+#####
+    -- Finish Quiz by using NEXT
+<div>
+  <img style="width: 100%" src="screenshots/finish.png" />
+</div>
+
+
+#####
+    -- Check your answers
+<div>
+  <img style="width: 100%" src="screenshots/results.png" />
+</div>
+
+<div>
+  <img style="width: 100%" src="screenshots/finish2.png" />
+</div>
 
