@@ -127,6 +127,11 @@ You can see our API Documentation in Redoc or Swagger style
 
 
 ## Screenshots/Instructions
+## Schema
+<div>
+  <img style="width: 100%" src="screenshots/schema.png" />
+</div>
+
 
 * After all the steps, you will see swagger documentation, to test all endpoints follow the steps below
   * REGISTER SUPERUSER OR USE init.sh to create superuser(AUTHORIZE)
